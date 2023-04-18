@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #101f29;
+}
+.main{
+    width: 70%;
+    height: 100vh;
+    background: none;
+    margin: auto;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background: url(../imge/mie.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 50px;
+}
+
+.box2{
+    width: 70%;
+    height: 80%;
+    background: rgba(0, 0, 0,0.5);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.box3{
+    width: 90%;
+    height: 80%;
+    background: none;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+form{
+    width: 100%;
+    height: auto;
+}
+h2{
+    margin: 0 0 10px 0;
+    color: rgb(255, 255, 255);
+}
+.name{
+    width: 48%;
+    height: auto;
+    background: none;
+    margin-right: 4%;
+    float: left;
+}
+.email{
+    width: 48%;
+    height: auto;
+    background: none;
+    float: left;
+}
+label{
+    display: block;
+    color: rgb(255, 255, 255);
+}
+input{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    background: rgba(25, 42, 55,0.5);
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+.url{
+    width: 100%;
+    height: auto;
+    background: none;
+    clear: left;
+}
+.message{
+    width: 100%;
+    height: auto;
+    background: none;
+}
+textarea{
+    width: 100%;
+    height: auto;
+    background:rgba(25, 42, 55,0.5);
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block; 
+    margin-top: 10px; 
+}
+.submit{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 2%;
+    box-sizing: border-box;
+}
+.submit input{
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    margin: auto;
+    background: #101f29;
+}
